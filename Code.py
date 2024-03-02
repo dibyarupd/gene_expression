@@ -24,9 +24,9 @@ with st.echo():
 '''
 
 with st.echo():
-    train = pd.read_csv(r"C:\Users\USER\OneDrive\Desktop\Rup's Palace\GeneExpression\data\data_set_ALL_AML_train.csv")
-    test = pd.read_csv(r"C:\Users\USER\OneDrive\Desktop\Rup's Palace\GeneExpression\data\data_set_ALL_AML_independent.csv")
-    labels = pd.read_csv(r"C:\Users\USER\OneDrive\Desktop\Rup's Palace\GeneExpression\data\actual.csv")
+    train = pd.read_csv("data_set_ALL_AML_train.csv")
+    test = pd.read_csv("data_set_ALL_AML_independent.csv")
+    labels = pd.read_csv("actual.csv")
 
 '''   
     I have loaded all the data into pandas dataframes for further processing. This data definitely need some cleaning. The row indexes of the data consist of 'Gene Accession Numbers' and the column indexes consist of 'samples' (or people on whom the dataset is made).
