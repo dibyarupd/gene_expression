@@ -89,3 +89,5 @@ with st.echo():
 '''
     As you can see the score is roughly 76 percent which means our algorithms predicted the labels with 73 percent accuracy. There's definitely room for some improvements.
 '''
+
+st.markdown("The whole source code can be found on my github page in this [link](https://github.com/dibyarupd/gene_expression)")
